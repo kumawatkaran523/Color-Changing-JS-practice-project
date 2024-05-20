@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  /* border: solid black 1px; */
+  max-width: 900px;
+}
+
+.box {
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+#green{
+  background-color: rgb(88, 228, 153);
+}
+#skyBlue{
+  background-color: rgb(117, 175, 175);
+}
+#blue{
+  background-color: rgb(85, 100, 180);
+}
+#pink{
+  background-color: rgb(240, 128, 230);
+}
